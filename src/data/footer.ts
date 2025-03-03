@@ -16,7 +16,7 @@ export const footerDetails: {
     },
     {
       text: "Privacy Policy",
-      url: "/privacy-policy.pdf",
+      url: "/privacy-policy",
     },
     {
       text: "Testimonials",
