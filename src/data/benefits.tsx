@@ -1,92 +1,91 @@
 import {
   FiBarChart2,
-  FiBriefcase,
-  FiDollarSign,
-  FiLock,
-  FiPieChart,
-  FiShield,
-  FiTarget,
   FiTrendingUp,
-  FiUser,
+  FiRepeat,
+  FiAward,
+  FiHeart,
+  FiCalendar,
+  FiList,
+  FiActivity,
 } from "react-icons/fi";
 
 import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
   {
-    title: "Smart Budgeting",
+    title: "Workout Tracking",
     description:
-      "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+      "Track all your workouts in one place with detailed metrics for sets, reps, and weights to monitor your progress over time.",
     bullets: [
       {
-        title: "Intelligent Categorization",
+        title: "Exercise Details",
         description:
-          "Automatically sorts your transactions for crystal-clear insights.",
+          "Log each exercise with precise weight, reps, and set information.",
         icon: <FiBarChart2 size={26} />,
       },
       {
-        title: "Customizable Goals",
-        description: "Set and track financial objectives that matter to you.",
-        icon: <FiTarget size={26} />,
+        title: "Session Overview",
+        description:
+          "View complete workout summaries including total weight lifted.",
+        icon: <FiList size={26} />,
       },
       {
-        title: "Predictive Analysis",
+        title: "Analyze Your Progress",
         description:
-          "Get ahead of your finances with spending forecasts and alerts.",
+          "Generate detailed analytics to track your progress over time.",
         icon: <FiTrendingUp size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-1.webp",
+    imageSrc: "/images/ExerciseDetailView.png",
   },
   {
-    title: "Seamless Investing",
+    title: "Progress Analytics",
     description:
-      "Start building wealth today, no financial degree required. Setrix makes investing accessible and straightforward.",
+      "Visualize your fitness journey with detailed charts tracking weight progression and rep counts for each exercise.",
     bullets: [
       {
-        title: "Micro-Investing",
-        description: "Begin with as little as $1 and watch your money grow.",
-        icon: <FiDollarSign size={26} />,
+        title: "Weight Progression",
+        description: "Track increasing strength with weight trend analysis.",
+        icon: <FiTrendingUp size={26} />,
       },
       {
-        title: "Expert Portfolios",
+        title: "Rep Tracking",
         description:
-          "Choose from investment strategies tailored to your risk tolerance.",
-        icon: <FiBriefcase size={26} />,
+          "Monitor endurance improvements with detailed repetition history.",
+        icon: <FiRepeat size={26} />,
       },
       {
-        title: "Real-Time Performance",
+        title: "Performance Comparison",
         description:
-          "Track your investments with easy-to-understand metrics and visuals.",
-        icon: <FiPieChart size={26} />,
+          "Compare current workout stats against previous sessions to measure growth.",
+        icon: <FiActivity size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-2.webp",
+    imageSrc: "/images/AnalyticsView.png",
   },
   {
-    title: "Bank-Grade Security",
+    title: "Activity Tracking",
     description:
-      "Your financial data deserves the best protection. Rest easy knowing Setrix employs cutting-edge security measures.",
+      "Log various fitness activities and exercises to monitor your overall health and wellness.",
     bullets: [
       {
-        title: "Military-Grade Encryption",
+        title: "Activity Calendar",
         description:
-          "Your information is safeguarded with the highest level of encryption.",
-        icon: <FiLock size={26} />,
+          "See your workout schedule at a glance with color-coded calendar view.",
+        icon: <FiCalendar size={26} />,
       },
       {
-        title: "Biometric Authentication",
+        title: "Fitness Activities",
         description:
-          "Access your account securely with fingerprint or facial recognition.",
-        icon: <FiUser size={26} />,
+          "Log fitness activities like social dance and yoga with duration tracking.",
+        icon: <FiHeart size={26} />,
       },
       {
-        title: "Real-Time Fraud Detection",
-        description:
-          "Our system constantly monitors for suspicious activity to keep your money safe.",
-        icon: <FiShield size={26} />,
+        title: "Various Exercises",
+        description: "Track progression for key exercises and activities.",
+        icon: <FiAward size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-1.webp",
+    imageSrc: "/images/ActivityScreen.png",
   },
 ];

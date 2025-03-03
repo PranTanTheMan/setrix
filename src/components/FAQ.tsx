@@ -24,7 +24,7 @@ const FAQ: React.FC = () => {
             Ask us anything!
           </p>
           <a
-            href="mailto:"
+            href="mailto:varunkollipara11@gmail.com"
             className="mt-3 block text-xl lg:text-4xl text-secondary font-semibold hover:underline text-center lg:text-left"
           >
             varunkollipara11@gmail.com

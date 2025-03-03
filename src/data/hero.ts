@@ -1,6 +1,6 @@
 export const heroDetails = {
-  heading: "Smart, Secure, Simple Financial Management",
+  heading: "Your Personal Gym Journey, Powered by Data",
   subheading:
-    "From effortless budgeting to real-time investment insights, Setrix puts you in control of your money like never before",
-  centerImageSrc: "/images/hero-mockup.webp",
+    "Track your workouts, Analyze your progress, achieve your fitness goals through highly advanced metrics",
+  centerImageSrc: "/images/ActivityScreen.png",
 };

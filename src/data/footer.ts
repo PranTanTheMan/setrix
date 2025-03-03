@@ -8,7 +8,7 @@ export const footerDetails: {
   socials: ISocials;
 } = {
   subheading:
-    "Empowering businesses with cutting-edge financial technology solutions.",
+    "Empowering your fitness journey with cutting-edge workout tracking solutions.",
   quickLinks: [
     {
       text: "Features",
@@ -16,23 +16,13 @@ export const footerDetails: {
     },
     {
       text: "Privacy Policy",
-      url: "/privacy-policy",
-    },
-    {
-      text: "Testimonials",
-      url: "#testimonials",
+      url: "/privacy-policy.pdf",
     },
   ],
   email: "varunkollipara11@gmail.com",
   telephone: "+1 612-223-1809",
   socials: {
-    // github: 'https://github.com',
-    // x: 'https://twitter.com/x',
-    twitter: "https://twitter.com/Twitter",
-    facebook: "https://facebook.com",
-    // youtube: 'https://youtube.com',
-    linkedin: "https://www.linkedin.com",
-    // threads: 'https://www.threads.net',
-    instagram: "https://www.instagram.com",
+    twitter: "https://x.com/PranTanTheMan",
+    instagram: "https://www.instagram.com/itsyaboipranith",
   },
 };

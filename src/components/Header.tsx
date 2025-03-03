@@ -40,8 +40,8 @@ const Header: React.FC = () => {
             ))}
             <li>
               <Link
-                href="#cta"
-                className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
+                href="https://apps.apple.com/us/app/setrix/id6742694566"
+                className="text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
               >
                 Download
               </Link>
