@@ -19,7 +19,7 @@ export const footerDetails: {
       url: "/privacy-policy.pdf",
     },
   ],
-  email: "varunkollipara11@gmail.com",
+  email: "setrixapp@gmail.com",
   telephone: "+1 612-223-1809",
   socials: {
     twitter: "https://x.com/PranTanTheMan",
